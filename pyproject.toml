@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "lunahod-server"
+version = "0.1.0"
+description = ""
+authors = ["LEv145"]
+readme = "README.md"
+packages = [{include = "lunohod_server", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.87.0"
+uvicorn = {extras = ["standard"], version = "^0.19.0"}
+lunahod-details = {git = "https://github.com/Lunahod145/lunahod-details"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
