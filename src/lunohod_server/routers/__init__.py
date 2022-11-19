@@ -1,1 +1,1 @@
-from .lunohod import LunohodRouterFactory
+from .lunohod import LunohodRoutable
