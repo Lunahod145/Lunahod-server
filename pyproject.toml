@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "lunahod-server"
+name = "lunohod-server"
 version = "0.1.2"
 description = ""
 authors = ["LEv145"]
