@@ -1,0 +1,23 @@
+[wheels]
+in_a_pin = 16
+in_b_pin = 20
+pwm_pin = 21
+en_pin = 12
+servo_pin = 7
+
+[hand_1]
+base_servo_pin = -1
+claw_servo_1_pin = -1
+claw_servo_2_pin = -1
+
+[hand_2]
+base_servo_pin = -1
+claw_servo_1_pin = -1
+claw_servo_2_pin = -1
+
+[bucket]
+active_servo_pin = -1
+
+[claw]
+active_servo_pin = -1
+rotation_servo_pin = -1

@@ -1,17 +1,19 @@
 [tool.poetry]
 name = "lunahod-server"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["LEv145"]
 readme = "README.md"
 packages = [{include = "lunohod_server", from = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
 fastapi = "^0.87.0"
 uvicorn = {extras = ["standard"], version = "^0.19.0"}
-lunahod-details = {git = "https://github.com/Lunahod145/lunahod-details"}
+lunahod-details = {git = "https://github.com/Lunohod145/Lunohod-details"}
 classy-fastapi = "^0.2.12"
+dataconf = "^2.1.2"
+toml = "^0.10.2"
 
 
 [tool.poetry.group.dev.dependencies]
